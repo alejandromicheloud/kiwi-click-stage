@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // Ruta al archivo JSON
-const jsonFilePath = './assets/alandalus/Alandalus-bot.json';
+const jsonFilePath = './assets/cuerpo4a/Cuerpo4a-bot.json';
 const filePath = 'https://kiwi-prod-content.s3.eu-central-1.amazonaws.com/fbbbae80-7e86-11ea-b5ce-f1ae4d5a5c31/bot/';
 
 // Leer y parsear el archivo JSON

@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 // Ruta al archivo JSON
-const jsonFilePath = './assets/alandalus/Alandalus-map.json';
-const relativeFilePath = 'https://kiwi-prod-content.s3.eu-central-1.amazonaws.com/fbbbae80-7e86-11ea-b5ce-f1ae4d5a5c31/alandalus/';
+const jsonFilePath = './assets/cuerpo3a/Cuerpo3a-map.json';
+const relativeFilePath = 'https://kiwi-prod-content.s3.eu-central-1.amazonaws.com/fbbbae80-7e86-11ea-b5ce-f1ae4d5a5c31/stages/cuerpo3a/';
 
 // Leer y parsear el archivo JSON
 fs.readFile(jsonFilePath, 'utf8', (err, data) => {
